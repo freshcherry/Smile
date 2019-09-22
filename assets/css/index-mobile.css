@@ -1,0 +1,189 @@
+@media screen and (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  body header {
+    width: 100%;
+    height: auto;
+  }
+  body header .header-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body header .header-container .header-logo {
+    width: 40%;
+  }
+  body header .header-container .header-title, body header .header-container .header-indicators {
+    display: none;
+  }
+  body main .inclusive {
+    width: 90% !important;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  body main .inclusive-header {
+    margin: 0 !important;
+  }
+  body main .inclusive-header h1 {
+    font-size: 24px !important;
+  }
+  body main .inclusive-header p {
+    text-align: justify;
+  }
+  body main .people {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  body main .people-desc {
+    width: 100%;
+    height: auto;
+  }
+  body main .people-desc p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90% !important;
+    margin: 20px auto !important;
+    text-align: justify;
+  }
+  body main .people-desc .indicators {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 20px auto;
+  }
+  body main .reasons {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0 0;
+  }
+  body main .reasons .reasons-header {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  body main .reasons .reasons-header h1 {
+    font-size: 24px;
+  }
+  body main .reasons .reasons-header span {
+    display: none;
+  }
+  body main .reasons .reasons-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+  body main .reasons .reasons-container .container-item {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+  body main .reasons .container-button {
+    width: 80%;
+    margin: 20px auto;
+  }
+  body main .hand .desc {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body main .poster {
+    display: none;
+  }
+  body footer {
+    margin: 20px auto;
+    height: auto;
+  }
+  body footer .footer-menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+  body footer .footer-menu .browse, body footer .footer-menu .shop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 40%;
+    height: auto;
+    margin: 20px 0;
+  }
+  body footer .footer-menu .browse h3, body footer .footer-menu .shop h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  body footer .footer-menu .contact, body footer .footer-menu .subscribe {
+    display: none;
+  }
+  body footer .footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+  body footer .footer-icons p {
+    width: 90%;
+    margin: 10px auto 20px;
+    text-align: center;
+  }
+  body footer .footer-icons img {
+    margin: 0 auto;
+  }
+}

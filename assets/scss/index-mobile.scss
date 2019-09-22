@@ -1,0 +1,176 @@
+@mixin defaultDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    header {
+      width: 100%;
+      height: auto;
+
+      .header-container {
+        width: 90%;
+        margin: 0 auto;
+
+        .header-logo {
+          width: 40%;
+        }
+
+        .header-title, .header-indicators {
+          display: none;
+        }
+      }
+    }
+
+    main {
+      .inclusive {
+        width: 90% !important;
+        margin: 0 auto;
+        padding: 20px 0;
+
+        &-header {
+          margin: 0 !important;
+
+          h1 {
+            font-size: 24px !important;
+          }
+
+          p {
+            text-align: justify;
+          }
+        }
+      }
+
+      .people {
+        flex-direction: column;
+        height: auto;
+
+        &-desc {
+          width: 100%;
+          height: auto;
+
+          p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90% !important;
+            margin: 20px auto !important;
+            text-align: justify;
+          }
+
+          .indicators {
+            @include defaultDisplay;
+            justify-content: space-between;
+            margin: 20px auto;
+          }
+        }
+      }
+
+      .reasons {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px 0 0;
+
+        .reasons-header {
+          width: 80%;
+          height: auto;
+          margin: 0 auto;
+
+          h1 {
+            font-size: 24px;
+          }
+
+          span {
+            display: none;
+          }
+        }
+
+        .reasons-container {
+          @include defaultDisplay;
+          flex-direction: column;
+          width: 90%;
+          height: auto;
+          margin: 20px auto;
+
+          .container-item {
+            width: 100%;
+            height: auto;
+            padding: 20px 0;
+          }
+        }
+
+        .container-button {
+          width: 80%;
+          margin: 20px auto;
+        }
+      }
+
+      .hand {
+        .desc {
+          width: 90%;
+          margin: 0 auto;
+        }
+      }
+
+      .poster {
+        display: none;
+      }
+    }
+
+
+    footer {
+      margin: 20px auto;
+      height: auto;
+
+      .footer-menu {
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+
+        .browse, .shop {
+          @include defaultDisplay;
+          flex-direction: column;
+          width: 40%;
+          height: auto;
+          margin: 20px 0;
+
+          h3 {
+            margin: 0;
+            font-size: 16px;
+          }
+        }
+
+        .contact, .subscribe {
+          display: none;
+        }
+      }
+
+      .footer-icons {
+        @include defaultDisplay;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+
+        p {
+          width: 90%;
+          margin: 10px auto 20px;
+          text-align: center;
+        }
+
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
